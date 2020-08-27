@@ -1,6 +1,13 @@
 package com.x.com.hibernate;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "emp102")
 public class Emp {
+	@Id
 	private String id;
 	private String name;
 
